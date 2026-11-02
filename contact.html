@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact - BraamBaddies Hair Studio</title>
+        
+    <meta name="description"
+           content="Explore our Explore affordable braids, knotless braids, box braids, hair installation and hair care at BraamBaddies Hair Studio in Braamfontein.">
+    <meta name="keywords"
+           content="BraamBaddies Hair Studio, Braamfontein, braids, knotless braids, box braids, hair installation, hair care, Braamfontein salon">
+    <meta name="author"  
+    content="BraamBaddies Hair Studio">  
+<head>
+    <title>Contact - BraamBaddies Hair Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>BraamBaddies Hair Studio</h1>
+        <p>Get in touch with us</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Contact Us</h2>
+
+        <p>We would love to hear from you!</p>
+
+        <p><strong>Phone:</strong> 012 345 6789</p>
+        <p><strong>Email:</strong> braambaddies@gmail.com</p>
+        <p><strong>Location:</strong> Braamfontein, Johannesburg</p>
+
+        <h3>Book an Appointment</h3>
+
+        <form onsubmit="showMessage(); return false;">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BraamBaddies Hair Studio</p>
+    </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+
+    if (!form) return;
+
+    form.addEventListener("submit", function (event) {
+        if (!form.checkValidity()) {
+            event.preventDefault();
+            form.reportValidity();
+        }
+    });
+});
+</script>
+</body>
+
+
+</html>
