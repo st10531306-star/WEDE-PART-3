@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Services - BraamBaddies Hair Studio</title>
+        
+    <meta name="description"
+           content="Explore our Explore affordable braids, knotless braids, box braids, hair installation and hair care at BraamBaddies Hair Studio in Braamfontein.">
+    <meta name="keywords"
+           content="BraamBaddies Hair Studio, Braamfontein, braids, knotless braids, box braids, hair installation, hair care, Braamfontein salon">
+    <meta name="author"  
+    content="BraamBaddies Hair Studio">     
+    
+    <title>Services - BraamBaddies Hair Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>BraamBaddies Hair Studio</h1>
+        <p>Our Services</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+<!-- Hair Inspiration Gallery -->
+<section class="gallery-section">
+    <h2>Our Hair Gallery</h2>
+    <p>Explore our styles and find inspiration for your next look!</p>
+
+    <div class="hair-gallery">
+        <img src="images/knotless.png"
+             alt="Beautiful knotless braids"
+             class="gallery-image"
+             tabindex="0">
+
+        <img src="images/boxbraids.png"
+             alt="Classic box braids hairstyle"
+             class="gallery-image"
+             tabindex="0">
+
+        <img src="images/cornrows.png"
+             alt="Professional hair installation"
+             class="gallery-image"
+             tabindex="0">
+
+        <img src="images/hairInstallation.png.jpg"
+             alt="Elegant hairstyling"
+             class="gallery-image"
+             tabindex="0">
+    </div>
+</section>
+
+<!-- Image Lightbox -->
+<div id="lightbox" class="lightbox" hidden>
+    <button id="close-lightbox" class="close-lightbox"
+            aria-label="Close image">&times;</button>
+    <img id="lightbox-image" src="" alt="">
+</div>
+<!-- Search Hair Services -->
+<div class="service-search">
+    <label for="serviceSearch">Search our hair services:</label>
+    <input type="text" id="serviceSearch"
+           placeholder="Search braids, installations..."
+           oninput="searchServices()">
+    <p id="searchMessage" aria-live="polite"></p>
+</div>
+    <main>
+        <h2>Our Hair Services</h2>
+
+        <p>
+            At BraamBaddies Hair Studio, we offer stylish and affordable
+            hairstyles for students, young creatives and professionals.
+        </p>
+<div class="service-item">
+        <h3>Braids</h3>
+        <p>
+            Choose from a variety of trendy and protective braided
+            hairstyles designed to suit your personal style.
+        </p>
+</div>
+
+<div class="service-item">
+        <h3>Knotless Braids</h3>
+        <p>
+            Lightweight and stylish knotless braids that provide a
+            comfortable and modern look.
+        </p>
+</div>
+
+<div class="service-item">
+        <h3>Box Braids</h3>
+        <p>
+            Classic box braids available in different lengths and styles
+            to give you a beautiful and versatile look.
+        </p>
+</div>
+
+<div class="service-item">
+        <h3>Hair Installations</h3>
+        <p>
+            Professional hair installations to help you achieve a
+            confident and polished appearance.
+        </p>
+</div>
+
+<div class="service-item">
+
+        <h3>Hair Care</h3>
+        <p>
+            Hair care services focused on keeping your natural hair
+            healthy, clean and well maintained.
+        </p>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BraamBaddies Hair Studio</p>
+    </footer>
+<!-- Frequently Asked Questions -->
+<section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+            What hair services do you offer?
+        </button>
+        <div class="faq-answer" hidden>
+            <p>We offer braiding, hairstyling, installations and hair care services to help you look and feel your best.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+            Do I need to book an appointment?
+        </button>
+        <div class="faq-answer" hidden>
+            <p>We recommend booking an appointment in advance to help us accommodate your preferred date and time.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+            How can I enquire about your prices?
+        </button>
+        <div class="faq-answer" hidden>
+            <p>Please visit our enquiry page to ask about our services and prices.</p>
+            <a href="enquiry.html">Make an enquiry</a>
+        </div>
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
